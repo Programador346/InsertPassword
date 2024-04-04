@@ -7,10 +7,14 @@ const InserPasswordForm = () => {
 
   return (
     <div>
-      
+      <img
+        src="https://www.ikusi.com/mx/wp-content/uploads/sites/2/2022/12/ikusi_ikusi_image_403.jpg"
+        alt="Imagen de fondo"
+        className="absolute -inset-x-0  -inset-y-px w-full h-full object-cover z-0"
+      />
       <div className="mx-auto">
-        <div className="flex justify-center items-center h-screen" style={{ backgroundImage: 'url("https://www.ikusi.com/mx/wp-content/uploads/sites/2/2022/12/ikusi_ikusi_image_403.jpg")', backgroundSize: 'cover' }}>
-          <div className="bg-black bg-opacity-75 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div className="justify-center items-center p-48">
+          <div className="relative z-full w-full max-w-md bg-black bg-opacity-75 shadow-md p-6 h-17 left-44  rounded-md">
             <h2 className="text-center text-3xl font-serif mb-4 text-white">Bienvenido a la Plataforma el siguiente paso es cambiar tu Contraseña</h2>
             <form>
               <input
